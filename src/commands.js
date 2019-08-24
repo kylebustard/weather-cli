@@ -11,7 +11,7 @@ const fetchNow = async (city) => {
     country: data.location.country,
     longitude: data.location.lon,
     latitude: data.location.lat,
-    temparature: data.current.temp_c,
+    temparature: data.current.temp_f,
     condition: data.current.condition.text
   };
 
